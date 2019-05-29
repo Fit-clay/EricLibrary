@@ -1,1 +1,1 @@
-include ':app', ':base', ':javabase'
+include ':app', ':base', ':javabase', ':baseui'
