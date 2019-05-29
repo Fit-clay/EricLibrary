@@ -12,7 +12,7 @@ public class TitleBar extends RelativeLayout {
 
     public TitleBar(Context context, AttributeSet attrs) {
         super(context, attrs);
-//        inflate(context,R.layout.view_title,this);
+        inflate(context,R.layout.view_title,this);
     }
 
     public TitleBar(Context context, AttributeSet attrs, int defStyleAttr) {
