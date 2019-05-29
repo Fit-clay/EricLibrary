@@ -1,2 +1,2 @@
-include ':app', ':base', ':javabase', ':baseui'
+include ':app', ':base', ':javabase', ':baseui', ':test'
 

@@ -1,4 +1,4 @@
-package com.eric.ericlibrary;
+package com.eric.test;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViewById(R.id.btn_to_web).setOnClickListener(v->{
-            ToSystemPageUtils.toChrame(MainActivity.this,"https://www.cnblogs.com/markgg/p/6635705.html");
+            ToSystemPageUtils.toChream(MainActivity.this,"https://www.cnblogs.com/markgg/p/6635705.html");
         });
     }
 }
